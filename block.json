@@ -1,0 +1,19 @@
+{
+  "name": "static blocklet demo",
+  "title": "static blocklet demo",
+  "description": "I am a static blocklet",
+  "version": "1.0.0",
+  "group": "static",
+  "color": "primary",
+  "logo": "logo.png",
+  "main": "/",
+  "provider": "arcblock",
+  "support": "support@arcblock.io",
+  "community": "https://community.arcblockio.cn",
+  "config_url": "",
+  "public_url": "/",
+  "admin_url": "",
+  "install-scripts": {},
+  "hooks": {},
+  "hookFiles": []
+}

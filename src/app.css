@@ -1,0 +1,178 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.app-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-link {
+  color: #4f6af5;
+}
+
+.app-input {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 8px;
+  line-height: 20px;
+  outline: none;
+  transition: all 0.3s;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 30rem;
+}
+
+.app-input:hover {
+  border-color: #40a9ff;
+}
+.app-input:focus {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+}
+.app-input::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+.app-input::-ms-input-placeholder {
+  color: #bfbfbf;
+}
+.app-input::placeholder {
+  color: #bfbfbf;
+}
+.info-box{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+}
+.search{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+button.searchBtn{
+  background: rgb(12, 108, 242);
+  color: rgb(255, 255, 255)!important;
+  font-size: 14px;
+  width: 100px;
+  border-radius: 0.25rem;
+  line-height: 1;
+  height: 2.25rem;
+  outline: none;
+  border: none;
+}
+button:hover{
+  background: rgb(20, 70, 153);
+}
+button:focus{
+  background: rgb(22, 86, 185);
+}
+button:active{
+  background: rgb(13, 53, 120);
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(223, 227, 235);
+}
+.list-label{
+  width: 50%;
+  padding: 0.8rem 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: auto;
+  color: rgb(103, 113, 133);
+  text-align: left;
+}
+.list-value{
+  width: 100%;
+  padding: 0.8rem 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: auto;
+  text-align: left;
+}
+.transaction-title{
+  color: rgb(53, 63, 82);
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 70%;
+  text-align: left;
+  margin-top: 2rem;
+}
+.transaction{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 1rem;
+}
+.transaction-box{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1rem 0px;
+}
+.transaction-fee, .transaction-hash{
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+}
+.transaction-fee div, .transaction-hash div{
+  padding: 0.8rem 0px;
+}
+.transaction-fee .label, .transaction-hash .label {
+  color: rgb(103, 113, 133);
+}
+@media screen and (max-width:768px) {
+  .info-box{
+    width: 95%;
+  }
+  .transaction-title{
+    width: 95%;
+  }
+  .transaction{
+    width: 95%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .app-input{
+    width: 30rem
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .app-input{
+    width: auto
+  }
+}
