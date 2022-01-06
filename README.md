@@ -1,3 +1,7 @@
+## 预览
+
+![alt](./screenshot.gif);
+
 ## 启动
 
 node > 16
