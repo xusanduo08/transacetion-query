@@ -8,11 +8,11 @@ group: static
 did: z8iZmkhhopB6SdP9sX3Ax8tnx6GuM1BHmYAzG
 main: build
 author:
-  name: zhanghan
-  email: zhanghan@arcblock.io
+  name: mengfansheng
+  email: mengfansheng111@gmail.com
 repository:
   type: git
-  url: git+https://github.com/blocklet/create-blocklet.git
+  url: git+https://github.com/xusanduo08/transacetion-query
 specVersion: 1.1.1
 version: 0.1.0
 logo: logo.png
