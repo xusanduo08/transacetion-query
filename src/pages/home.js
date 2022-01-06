@@ -86,7 +86,7 @@ const Home = () => {
               <div className="label" style={{ width: '50%' }}>
                 Fee
               </div>
-              <div style={{ width: '100%' }}>{t?.fee ? numeral(t?.fee).format('0,0') : ''}</div>
+              <div style={{ width: '100%' }}>{numeral(t?.fee).format('0,0')}</div>
             </div>
             <div className="transaction-hash">
               <div className="label" style={{ width: '50%' }}>
